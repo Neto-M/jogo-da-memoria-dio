@@ -39,10 +39,10 @@ let checkOrder = () => {
             gameOver();
             break;
         }
-        if (clickedOrder.length == order.length) {
-            alert(`Pontuação: ${score}!\nVocê Ganhou! Iniciando próximo nível!`);
-            nextLevel();
-        }
+    }
+    if (clickedOrder.length == order.length) {
+        alert(`Pontuação: ${score}!\nVocê Ganhou! Iniciando próximo nível!`);
+        nextLevel();
     }
 }
 
